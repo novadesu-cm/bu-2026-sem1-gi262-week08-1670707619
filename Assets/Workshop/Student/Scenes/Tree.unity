@@ -1053,7 +1053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &656165935
 Transform:
   m_ObjectHideFlags: 0
@@ -1081,6 +1081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9a3b2f86b4d51448b882bc5e4aaf820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSequen
+  dialogueUI: {fileID: 909015994}
 --- !u!114 &760521284 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8365133027701863277, guid: 896fac2834903504f8973b3186300203, type: 3}
@@ -3058,8 +3059,8 @@ RectTransform:
   m_Children:
   - {fileID: 1246143874}
   - {fileID: 1839429061}
-  - {fileID: 656165935}
   - {fileID: 909015993}
+  - {fileID: 656165935}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
